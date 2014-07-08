@@ -1,130 +1,160 @@
 ---
 soma:
-  at: 2014-07-08 09:19:13.393091030 +06:00
-  channells:
+  at: 2014-07-08 11:05:09.912447785 +06:00
+  channels:
   - name: Seven Inch Soul
     desc: NEW! Vintage soul tracks from the original 45 RPM vinyl.
-    img: http://somafm.com/img/7soul120.png
+    id: 7soul
+    img: 7soul120.png
     pls: http://somafm.com/7soul.pls
   - name: Groove Salad
     desc: A nicely chilled plate of ambient/downtempo beats and grooves.
-    img: http://somafm.com/img/groovesalad120.png
+    id: groovesalad
+    img: groovesalad120.png
     pls: http://somafm.com/groovesalad.pls
   - name: Lush
     desc: Sensuous and mellow vocals, mostly female, with an electronic influence.
-    img: http://somafm.com/img/lush-x120.jpg
+    id: lush
+    img: lush-x120.jpg
     pls: http://somafm.com/lush.pls
   - name: Earwaves
     desc: Spanning the history of electronic and experimental music from the early
       pioneers to the latest innovators.
-    img: http://somafm.com/img/earwaves120.jpg
+    id: earwaves
+    img: earwaves120.jpg
     pls: http://somafm.com/earwaves.pls
   - name: Deep Space One
     desc: Deep ambient electronic, experimental and space music. A soundtrack for
       inner and outer space exploration.
-    img: http://somafm.com/img/deepspaceone120.gif
+    id: deepspaceone
+    img: deepspaceone120.gif
     pls: http://somafm.com/deepspaceone.pls
   - name: Drone Zone
     desc: Served best chilled, safe with most medications. Atmospheric textures with
       minimal beats.
-    img: http://somafm.com/img/dronezone120.jpg
+    id: dronezone
+    img: dronezone120.jpg
     pls: http://somafm.com/dronezone.pls
   - name: PopTron
     desc: Electropop and indie dance rock with sparkle and pop.
-    img: http://somafm.com/img/poptron120.png
+    id: poptron
+    img: poptron120.png
     pls: http://somafm.com/poptron.pls
   - name: DEF CON Radio
     desc: Music for Hacking. From DEF CON 21 in Las Vegas.
-    img: http://somafm.com/img/defcon120.png
+    id: events
+    img: defcon120.png
     pls: http://somafm.com/events.pls
   - name: Dub Step Beyond
     desc: Dubstep, Dub and Deep Bass. May damage speakers at high volume.
-    img: http://somafm.com/img/dubstep120.png
+    id: dubstep
+    img: dubstep120.png
     pls: http://somafm.com/dubstep.pls
   - name: Space Station Soma
     desc: Tune in, turn on, space out. Spaced-out ambient and mid-tempo electronica.
-    img: http://somafm.com/img/sss.jpg
+    id: spacestation
+    img: sss.jpg
     pls: http://somafm.com/spacestation.pls
   - name: Mission Control
     desc: Celebrating NASA and Space Explorers everywhere.
-    img: http://somafm.com/img/missioncontrol120.jpg
+    id: missioncontrol
+    img: missioncontrol120.jpg
     pls: http://somafm.com/missioncontrol.pls
   - name: Indie Pop Rocks!
     desc: New and classic favorite indie pop tracks.
-    img: http://somafm.com/img/indychick.jpg
+    id: indiepop
+    img: indychick.jpg
     pls: http://somafm.com/indiepop.pls
   - name: Folk Forward
     desc: Indie Folk, Alt-folk and the occasional folk classics.
-    img: http://somafm.com/img/folkfwd120.jpg
+    id: folkfwd
+    img: folkfwd120.jpg
     pls: http://somafm.com/folkfwd.pls
   - name: BAGeL Radio
     desc: What alternative rock radio should sound like.
-    img: http://somafm.com/img/bagel120.png
+    id: bagel
+    img: bagel120.png
     pls: http://somafm.com/bagel.pls
   - name: Digitalis
     desc: Digitally affected analog rock to calm the agitated heart.
-    img: http://somafm.com/img/digitalis120.png
+    id: digitalis
+    img: digitalis120.png
     pls: http://somafm.com/digitalis.pls
   - name: Sonic Universe
     desc: Transcending the world of jazz with eclectic, avant-garde takes on tradition.
-    img: http://somafm.com/img/sonicuniverse120.jpg
+    id: sonicuniverse
+    img: sonicuniverse120.jpg
     pls: http://somafm.com/sonicuniverse.pls
   - name: Secret Agent
     desc: The soundtrack for your stylish, mysterious, dangerous life. For Spies and
       PIs too!
-    img: http://somafm.com/img/secretagent120.jpg
+    id: secretagent
+    img: secretagent120.jpg
     pls: http://somafm.com/secretagent.pls
   - name: Suburbs of Goa
     desc: Desi-influenced Asian world beats and beyond.
-    img: http://somafm.com/img/sog120.jpg
+    id: suburbsofgoa
+    img: sog120.jpg
     pls: http://somafm.com/suburbsofgoa.pls
   - name: Boot Liquor
     desc: Americana Roots music for Cowhands, Cowpokes and Cowtippers
-    img: http://somafm.com/img/bootliquor120.jpg
+    id: bootliquor
+    img: bootliquor120.jpg
     pls: http://somafm.com/bootliquor.pls
   - name: Illinois Street Lounge
     desc: Classic bachelor pad, playful exotica and vintage music of tomorrow.
-    img: http://somafm.com/img/illstreet.jpg
+    id: illstreet
+    img: illstreet.jpg
     pls: http://somafm.com/illstreet.pls
   - name: The Trip
     desc: Progressive house / trance. Tip top tunes.
-    img: http://somafm.com/img/thetrip120.jpg
+    id: thetrip
+    img: thetrip120.jpg
     pls: http://somafm.com/thetrip.pls
   - name: cliqhop idm
     desc: Blips'n'beeps backed mostly w/beats. Intelligent Dance Music.
-    img: http://somafm.com/img/cliqhop120.png
+    id: cliqhop
+    img: cliqhop120.png
     pls: http://somafm.com/cliqhop.pls
   - name: Covers
     desc: Just covers. Songs you know by artists you don't. We've got you covered.
-    img: http://somafm.com/img/covers120.jpg
+    id: covers
+    img: covers120.jpg
     pls: http://somafm.com/covers.pls
   - name: Underground 80s
     desc: Early 80s UK Synthpop and a bit of New Wave.
-    img: http://somafm.com/img/u80s-120.png
+    id: u80s
+    img: u80s-120.png
     pls: http://somafm.com/u80s.pls
   - name: Beat Blender
     desc: A late night blend of deep-house and downtempo chill.
-    img: http://somafm.com/img/blender120.png
+    id: beatblender
+    img: blender120.png
     pls: http://somafm.com/beatblender.pls
   - name: Doomed
     desc: Dark industrial/ambient music for tortured souls.
-    img: http://somafm.com/img/doomed120.png
+    id: doomed
+    img: doomed120.png
     pls: http://somafm.com/doomed.pls
   - name: Black Rock FM
     desc: From the Playa to the world, for the 2013 Burning Man festival.
-    img: http://somafm.com/img/1023brc.jpg
+    id: brfm
+    img: 1023brc.jpg
     pls: http://somafm.com/brfm.pls
   - name: SF 10-33
     desc: Ambient music mixed with the sounds of San Francisco public safety radio
       traffic.
-    img: http://somafm.com/img/sf1033120.png
+    id: sf1033
+    img: sf1033120.png
     pls: http://somafm.com/sf1033.pls
   - name: Iceland Airwaves
     desc: Music from bands who will be performing at Iceland Airwaves [explicit]
-    img: http://somafm.com/img/airwaves120.png
+    id: airwaves
+    img: airwaves120.png
     pls: http://somafm.com/airwaves.pls
   - name: South by Soma
     desc: Music from bands who will be performing at SXSW, one of the biggest and
       best music festivals in the world. [explicit]
-    img: http://somafm.com/img/sxfm120.png
+    id: sxfm
+    img: sxfm120.png
     pls: http://somafm.com/sxfm.pls

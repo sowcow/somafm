@@ -6,7 +6,7 @@ class Soma
   include Page; URL = 'http://somafm.com'
 
   def channels
-    body.css('#stations ul li').map { |node|
+    @channels ||= body.css('#stations ul li').map { |node|
       Channel.new url, node
     }
   end
@@ -26,7 +26,7 @@ class Soma::Serializable < Soma
     {
       soma: {
         at: at,
-        channells: channels.map(&:to_h)
+        channels: channels.map(&:to_h)
       }
     }
   end
@@ -77,10 +77,15 @@ class Soma::Channel < Struct.new :root, :node
     node.at('p.descr').text
   end
 
+  def id
+    pls.split(?/).last.sub '.pls', ''
+  end
+
   def to_h
     {
       name:  name,
       desc:  desc,
+      id:    id,
       img:   img,
       pls:   pls,
     }
