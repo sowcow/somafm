@@ -1,5 +1,8 @@
 require 'sinatra'
+
 #require 'sinatra/reloader' if development?
+set :environment, :production
+
 require 'slim'
 require 'sass'
 require 'rack-livereload'
